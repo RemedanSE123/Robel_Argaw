@@ -53,15 +53,15 @@ export default function HomePage() {
                   className="absolute inset-1 bg-gradient-to-r from-pink-500 via-blue-500 to-purple-500 rounded-full animate-spin-slow opacity-50"
                   style={{ animationDirection: "reverse", animationDuration: "12s" }}
                 ></div>
-                <div className="absolute inset-3 bg-white rounded-full flex items-center justify-center shadow-2xl">
-                  <Image
-                    src="/remdan.jpg?height=200&width=200"
-                    alt="Robel Aragew"
-                    width={200}
-                    height={200}
-                    className="rounded-full object-cover"
-                  />
-                </div>
+                <div className="relative w-40 h-40 sm:w-56 sm:h-58 rounded-full overflow-hidden">
+  <Image
+    src="/remdan.jpg"
+    alt="Robel Aragew"
+    fill
+    className="object-cover"
+  />
+</div>
+
               </div>
               {/* Enhanced glow effects */}
               <div className="absolute -inset-8 bg-gradient-to-r from-blue-500/30 via-purple-500/30 to-pink-500/30 rounded-full blur-2xl animate-pulse"></div>
@@ -70,7 +70,7 @@ export default function HomePage() {
 
             <div className="relative">
               <h1 className="text-7xl font-bold bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 bg-clip-text text-transparent mb-4 animate-slide-up">
-                Robel Aragew
+                Robel Argaw
               </h1>
               <div className="flex items-center justify-center gap-2 mb-6">
                 <Sparkles className="w-6 h-6 text-yellow-500 animate-pulse" />
